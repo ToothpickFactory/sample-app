@@ -1,4 +1,4 @@
-angular.module('cstep').config(function($stateProvider, $urlRouterProvider) {
+angular.module('app').config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('sample', {

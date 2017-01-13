@@ -1,4 +1,4 @@
-angular.module('cstep').directive('samplePage', () => {
+angular.module('app').directive('samplePage', () => {
   return {
     restrict: 'E',
     scope: {},

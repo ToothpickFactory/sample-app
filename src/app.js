@@ -1,1 +1,1 @@
-angular.module('cstep', ['ui.router'])
+angular.module('app', ['ui.router'])

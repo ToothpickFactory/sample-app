@@ -1,4 +1,4 @@
-angular.module('cstep').directive('sampleComp', () => {
+angular.module('app').directive('sampleComp', () => {
   return {
     restrict: 'E',
     scope: {},
