@@ -1,4 +1,4 @@
-angular.module('cstep').factory('$localstorage', function(){
+angular.module('app').factory('$localstorage', function(){
   let set = (key, value) => {
     localStorage.setItem(key, value);
   }

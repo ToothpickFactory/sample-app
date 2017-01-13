@@ -46,7 +46,7 @@ gulp.task('component', function() {
     }))
     .pipe(plumber())
     .pipe(babel({presets: ['es2015']}))
-    .pipe(concat('cstep.js'))
+    .pipe(concat('app.js'))
     .pipe(gulp.dest('./dist/js'))
 });
 
@@ -57,7 +57,7 @@ gulp.task('sass', function(done) {
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe(rename('cstep.css'))
+    .pipe(rename('app.css'))
     .pipe(gulp.dest('./dist/css/'))
     .on('end', done);
 });
